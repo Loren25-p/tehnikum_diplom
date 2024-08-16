@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.diplom_sec {
+  display: flex;
+  padding-top: 160px;
+  padding-left: 120px;
+}
+.text_infoDiplom h1 {
+  font-family: "TT Hoves", sans-serif;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 68.32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  width: 590px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.text_infoDiplom p {
+  font-family: "TT Hoves", sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 37.8px;
+  text-align: left;
+  width: 514px;
+  height: 114px;
+  color: #222222;
+}
+.text_infoDiplom {
+  padding-left: 20px;
+}
+.diplom_ad {
+  display: none;
+}
+.diplom_adContainer h2 {
+  font-family: "TT Hoves", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 40.05px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  width: 328px;
+  height: 120px;
+  color: #222222;
+  text-transform: uppercase;
+}
+.diplom_adContainer p {
+  font-family: "TT Hoves", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  padding-left: 20px;
+  color: #222222;
+}
+.diplom_adContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* adaptation */
+@media (max-width: 375px) {
+  .diplom_ad {
+    display: block;
+  }
+  .diplom_sec {
+    display: none;
+  }
+}
