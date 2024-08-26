@@ -63,6 +63,130 @@
   gap: 25px;
 }
 
+.timer {
+  padding-top: 80px;
+  margin-top: 60px;
+  background-color: blueviolet;
+  width: 100%;
+  height: 623px;
+}
+
+.timeCards {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+.subtitle {
+  font-family: "TT Hoves";
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 31.81px;
+  text-align: center;
+  padding-left: calc(8.83977900552486vw - 58.1491712707182px); 
+}
+.timetitle1 {
+  width: calc(18.1vw + 9.04px);
+  font-family: "Chava";
+  font-size: calc(12.6vw + 12.7px);
+  line-height: 187.05px;
+}
+
+.timetitle2 {
+  width: calc(18.1vw + 9.04px);
+  font-family: "Chava";
+  font-size: calc(12.6vw + 12.7px);
+  line-height: 187.05px;
+}
+.secondary {
+  width: 328px;
+  height: 61px;
+  top: 474px;
+  left: 494px;
+  padding: 20px 0px 20px 0px;
+  gap: 10px;
+  border-radius: 12px;
+  color: #6e3aba;
+  font-family: "TT Hoves", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.timer {
+  background-color: #6e3aba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 57px;
+  padding: 84px 0;
+  margin-top: 160px;
+}
+.timer h2 {
+  font-size: calc(2vw + 26.5px);
+  font-weight: 700;
+  line-height: 117%;
+  color: #fff;
+  font-family: "TT Hoves", sans-serif;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.timeCards {
+  display: flex;
+  gap: calc(7.73480662983425vw - 15.0055248618785px);
+  font-size: calc(12.5966850828729vw + 1.7624309392265px);
+}
+.timeCard .subtitle {
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 31.81px;
+  text-align: center;
+}
+/*photo*/
+.photo{
+  margin-top: 150px;
+}
+.photo h2{
+  font-family: 'TT Hoves',sans-serif;
+  font-size: calc(2.65193370165746vw + 24.0552486187845px);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.photo p{
+  font-family: 'TT Hoves',sans-serif;
+  font-size: calc(1.10497237569061vw + 13.8563535911602px);
+  font-weight: 400;
+  width: calc(46.4088397790055vw + 153.966850828729px);
+}
+
+
+
+
+
+/*photo*/
+.photo h2{
+  width: calc(58.2vw + 109.6px);
+  font-family: 'TT Hoves',sans-serif;
+  font-size: 58px;
+  font-weight: 500;
+  color: #222222;
+}
+
+.photo p{
+  color: #222222;
+  width: calc(46.4vw + 154px);
+  font-family: 'TT Hoves',sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+.splide__slide{
+  display: flex;
+  margin-top: 22px;
+}
 /* adaptation */
 @media (max-width: 375px) {
   .diplom_ad {
